@@ -1,0 +1,71 @@
+body{
+background-color: whitesmoke;
+}
+.knoppen {
+    overflow: hidden;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.knoppen li:hover{
+    background-color: orange;
+    font-size: 30px;
+    -webkit-box-shadow: 0px 0px 59px -8px rgba(0,0,0,0.66);
+    -moz-box-shadow: 0px 0px 59px -8px rgba(0,0,0,0.66);
+    box-shadow: 0px 0px 59px -8px rgba(0,0,0,0.66);
+}
+
+.knoppen li{
+    list-style-type: none;
+    float: left;
+    margin-right: 10px;
+    font-size: 25px;
+    border-radius: 20px;
+    padding: 10px 10px 10px 10px;
+    transition: all 0.5s ease-in-out;
+    background-color: lightgrey;
+}
+
+.knoppen li a{
+    color: black;
+    text-decoration: none;
+
+}
+
+.knoppen li.actief {
+    background-color: orange;
+    -webkit-box-shadow: 0px 0px 59px -8px rgba(0,0,0,0.66);
+    -moz-box-shadow: 0px 0px 59px -8px rgba(0,0,0,0.66);
+    box-shadow: 0px 0px 59px -8px rgba(0,0,0,0.66);
+}
+.paneel {
+/*    display: none;*/
+}
+.paneel.actief {
+    display: block !important;
+}
+.paneel img { 
+    max-width: 100%;
+}
+
+.nieuws img {
+    border: 3px solid black;
+    margin-left: 110px
+}
+
+.nieuws{
+    border: 2px solid black;
+    background-color: greenyellow;
+    width: 900px;
+    margin: auto;
+    height: 1000px;
+}
+
+.paneel{
+    margin: 10px;
+}
+
+footer{
+    margin-top: 20px;
+    float: right;
+}
